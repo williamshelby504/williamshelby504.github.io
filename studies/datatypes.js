@@ -48,25 +48,38 @@ console.log(isNaN(33)); // prints false
 
 console.log(isNaN('vvvykb')); // prints true
 
-// undefined: is property of the global object. 
+/*
+ * The undefined value is similar to null in that it carries no information.
+ * Its meaning is 'value is not assigned'.
+ */
 
 var name;
 
 console.log(name); // prints undefined 
 
-// null: a variable points to no object
+/*
+ * The null value is unique to itself.
+ * It can only be null.
+ * It represents a non existing object.
+ * It has no value.
+ */
 
 var nul = null; 
 
 // array: is a collection of data stored in braces. []
+//arrays can be accesed with bracket notation.
 
 let arr = [ 1, 2, 3]; 
 
 // object: is collection of key value pairs stored in curly braces. {}
+//objects can be accesed with dot notation
 
 let myObj = { favColor: "black", FavFood: "Anything spicy"};
 
-// function: its a resusable block code. It take in two parameters with a function body. 
+/*
+ * A Function is a collection of statements that perform a task and return values.
+ * We create functions with the keyword function, function name, and code block inside of curly braces.
+ */
 
 // You use the keyword function with () {};
 
@@ -118,6 +131,6 @@ obj1['cost'] = '2,000';
 
 let obj2 = obj1;
 
-obj2['color'] = 'black';
+obj2['color'] = 'grey';
 
 console.log(obj2); // prints { car: 'galant', color: 'grey', speed: 'unknown', cost: '2,000' }

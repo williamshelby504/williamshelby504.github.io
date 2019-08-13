@@ -26,8 +26,7 @@ let newStr = stuff.slice(0,2);
 
 console.log(newStr); // prints 'tj'
 
-// length: return the length of the string
-
+// length: length is a string property that returns the length of the string
 let name = 'william';
 
 console.log(name.length); // prints 7
@@ -59,3 +58,14 @@ let takeWordsOut = longStr.split(' ');
 console.log(takeWordsOut[1]); // prints weekend
 
 console.log(takeWordsOut[6]); // prints rice
+
+
+// String Manipulation with Operators
+    // strings can be concateneated together by using the + operator.
+
+// examples //
+
+var good = 'good';
+var day = 'day';
+var sir = 'sir!';
+console.log(good + day + sir); // prints good day sir!

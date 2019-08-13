@@ -22,7 +22,9 @@
 // loop forward
 
 let arr = [0, 1, 2, 3, 4, 5 , 6, 7 ];
-
+// the start is when i assign i to 0
+//the stopping condition is when I compare i to the  length of the array.
+// then I increment by one
 for(let i = 0; i < arr.length; i++) {
 
     console.log(i); // prints 0,1,2,3,4,5,6,7
@@ -37,9 +39,9 @@ for(let i = arr.length - 1; i > -1; i--) {
 
 }
 
-// for-in loops: designed to loop over objects and get keys or the values out of it
-
-// 
+/*
+ * The For In Loop iterates through the properties of an object and executes the code once for each property of the object.
+ */
 
 var me = {
 
@@ -50,7 +52,7 @@ var me = {
   favGame: 'The Warriors'
 
 };
-
+// for in loops dont have a stopping condition.
  for(let key in me) {
 
      console.log(key); // prints name, city, favGame
@@ -59,10 +61,10 @@ var me = {
 
  }
 
- /* while loop: use the keyword while then a parenthesis, states a condition and
-
- while its true it will run this block of code.
-
+ /* while loops:
+ * While the condition is true, the block of statements following the while statement is executed.
+ * This is repeated until the condition becomes false.
+ * A stopping condition must always be included to prevent an infinite loop.
  */
 
  var ex = 4;

@@ -28,19 +28,6 @@ let func = function() {
 
 * 6. Functions can see and modify variables in the parent scope not the global scope
 
-* 7. Closures: is where the inner function can access the outer function variables
-
-* 8. Scope: refers to what variables are accessible and where we can access them. 
-
-*  Global scope - anything outside the function scope
-
-*  Local scope - anthing inside the function body
-* Functions hold their variables in a scope to protect them from thier protect scope.
-
-* Child scope can access the variables of it's parent scope plus global scope but the parent scope doesnt
-
-* have access to the child scope.
-
 **/
 
 // named function: 
@@ -80,3 +67,47 @@ console.log(name); // prints William
 newName();// to access Antonio I have to call the function then check for name
 
 console.log(name); // prints Antonio
+
+ // SCOPE
+ /*
+  * Scope refers to how and where variables are accessible throughout your code.
+  * There are 2 scope types.
+  *
+  * 1) GLOBAL SCOPE
+  * If a variable is defined outside of a function, it is in the global scope and can be accessed.
+  */
+  
+let x = 10;
+function studies() {
+    x = 50;
+}
+console.log(x); // 10
+studies();
+console.log(x); // 50
+
+ /*
+  * 2) LOCAL SCOPE
+  * Local scope is the area inside of a function body.
+  * Anything declared in here is only available within the function or other functions declared within it.
+  */
+  
+function studies1() {
+    let y = 27;
+}
+// console.log(y); // reference error
+
+// CLOSURE
+/*
+ * Closure is when a function references variables inside another function body.
+ * In the example below, closure occurs on line 110.
+ * It is trying to reference outside of its function.
+ */
+ 
+function myName(firstName, lastName) {
+    var greeting = 'Hello';
+    return firstName + lastName;
+    function closure() {
+        return greeting + firstName + lastName;
+    }
+}
+myName('william', 'shelby'); // outputs william shelby

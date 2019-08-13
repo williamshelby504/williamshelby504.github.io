@@ -7,7 +7,14 @@
 * code block that with the conditonal then it will stop running your code. 
 *
 */
-// if statement: you the key word if
+/*
+ * An IF STATEMENT is used when we want a piece of code to run only if a certain condition is met.
+ * An If statement is written starting with the keyword FOR.
+ * Next, inside of parentheses, a testing condition that asks a true or false question.
+ * Last, inside of curly braces, an action to be performed if the condition results in true.
+ * There can be multiple statements inside the curly braces to be executed.
+ * Everything inside of the curly braces is Code Block.
+ */
 
 let num = 4;
 
@@ -48,12 +55,13 @@ else { // this is my default statement the other conditions are true
 
 // prints: Goodnight! 
 
-// switch statement: use the keyword switch followed by conditions with body 
-
-/* - it evaluates an input expression, matching the expression's value to case 
-clause and excutes the statement associated with that case.
-- break statement ends the case. 
-*/
+/*
+   * While If Else statements work quite effectively, there is a cleaner way to control the glow if you have many If statements.
+   * Switch statements replace multiple Ifs by comparing a value with multiple variants.
+   * These variants are called case blocks.
+   * If a match is made, switch executes the case clause until the end of the switch or a break statement is reached.
+   * A break statement will stop the code from executing any further.
+   */
 
 let f = "get money";
 
