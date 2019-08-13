@@ -1,22 +1,18 @@
 
 /* 
-1
-*0. Loops: for loop, for-in loops, while loops
-2
+
+*Loops: for loop, for-in loops, while loops
+
 * - its a built in feature in javascript that allow us to excute a block of code as many
-3
+
 * times you want to and you can iterating over a collection of data.
-4
-*
-5
+
 *  For loops/While loops:
-6
+
 * - You should use a for loop over a while loop if you know how many times you want to loop through.
-7
+
 * - you should use a while loop over a for loop if you dont know how many times you should loop through
-8
-* - 
-9
+
 */
 
 // for loop: its best to use this loop to iterate through an array
@@ -64,9 +60,9 @@ var me = {
  }
 
  /* while loop: use the keyword while then a parenthesis, states a condition and
-41
+
  while its true it will run this block of code.
-42
+
  */
 
  var ex = 4;

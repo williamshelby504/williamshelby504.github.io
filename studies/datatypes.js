@@ -1,61 +1,28 @@
 /* 
-1
 * Dataytypes:
-2
 * 0. In Javascript, it has two different datatypes simple/primitive and 
-3
 * complex datatypes.
-4
 *
-5
 * 1. Simple/Primitive dataypes: 
-6
 * - simple datatypes are immutable. they dont hold or collect other values and 
-7
 *  it operation on simple values return new simple values. They dont alter the 
-8
 * original value. copy by value
-9
 *
-10
 * - list of simple datatypes: number, string, boolean, Nan, undefined, and null
-11
-* 
-12
-*
-13
 * 2. Complex datatypes:
-14
 * - complex datatypes can take in other values so they can be indefinite size. 
-15
 * - they are copied by reference when assigning or passing.
-16
 * - list of complex datatypes: array, object, and function 
-17
-*
-18
-*
-19
+
 *3. The differnce between simple and complex datatypes are that simple datatypes dont
-20
 * hold or collect value. Complex datatype can take other values can grow into any size.
-21
 * - Simple datatypes are copied by value and complex datatypes are copied by Reference
-22
 * when assigning or passing it. You cant alter the original simple datatype. 
-23
-*
-24
-*
-25
+
 *4. The way simple datatypes are copied by value it takes the copy of the data 
-26
 * and dont alter the original data. The way complex datatypes are copied by reference it 
-27
 * stores the value from another object and it changes the original object.
-28
-*
-29
+
 */
 // number: numberic datatype
 

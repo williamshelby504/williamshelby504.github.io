@@ -1,19 +1,10 @@
 
 /*
-1
-*0. Sting Manipulation: strings are immutable.That means it can't be changed but 
-2
+*Sting Manipulation: strings are immutable.That means it can't be changed but 
 * there are methods you can use to alter the string. String methods are pure because 
-3
 * - you use theses methods when you need 
-4
 * methods - toUpperCase, toLowerCase, slice, replace, concat, split,
-5
-* 
-6
-*
-7
-**/
+**/ 
 
 // toUpperCase: to upper case the string
 
