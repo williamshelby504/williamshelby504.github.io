@@ -6,6 +6,7 @@
 * give it a specific code to excute
 
 * 2. Function parameters are placeholders for the arguments thats going to be passed to the function.
+* functions also don't always need parameters; and the same for return statements.
 
 * - Function arguments takes place of the parameters when passing into a function.
 

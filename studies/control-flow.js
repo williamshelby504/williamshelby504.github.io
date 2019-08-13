@@ -9,7 +9,7 @@
 */
 /*
  * An IF STATEMENT is used when we want a piece of code to run only if a certain condition is met.
- * An If statement is written starting with the keyword FOR.
+ * An If statement is written starting with the keyword if.
  * Next, inside of parentheses, a testing condition that asks a true or false question.
  * Last, inside of curly braces, an action to be performed if the condition results in true.
  * There can be multiple statements inside the curly braces to be executed.

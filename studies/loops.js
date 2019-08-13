@@ -53,6 +53,8 @@ var me = {
 
 };
 // for in loops dont have a stopping condition.
+// similar to a for loop, the for in starts with for
+// on the inside of the paranthesis you declare a key and use the 'in' key word on the object your looping through
  for(let key in me) {
 
      console.log(key); // prints name, city, favGame

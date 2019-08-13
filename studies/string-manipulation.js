@@ -26,10 +26,6 @@ let newStr = stuff.slice(0,2);
 
 console.log(newStr); // prints 'tj'
 
-// length: length is a string property that returns the length of the string
-let name = 'william';
-
-console.log(name.length); // prints 7
 
 // replace: replace a element with a element you provides
 
@@ -69,3 +65,10 @@ var good = 'good';
 var day = 'day';
 var sir = 'sir!';
 console.log(good + day + sir); // prints good day sir!
+
+
+// STRING PROPERTIES //
+
+// .length - reflects the length of a string.
+var firstName = 'william';
+console.log(firstName.length); // prints 7
